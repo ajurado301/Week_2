@@ -4,4 +4,6 @@
     - Iniciado proyecto node
     - Creada clase Person (person.js)
     - Probar la clase Person (personTest.js)
+    - Creada clase Contacts (contacts.js)
+    - Probar la clase Contacts (contactsTest.js)
     
