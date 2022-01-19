@@ -7,3 +7,5 @@
     - Creada clase Contacts (contacts.js)
     - Probar la clase Contacts (contactsTest.js)
     
+## Cambios en rama dia2
+Carpeta typescript con sus retos correspondientes
