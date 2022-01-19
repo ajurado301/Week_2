@@ -43,3 +43,4 @@ console.log(vector1.getElements());
 console.log("elements de vectorResultante después de multNumber() con multiplicador:", multiplicador);
 vectorResultante = vector1.multNumber(multiplicador);
 console.log(vectorResultante.getElements());
+
