@@ -1,4 +1,4 @@
 # Week_2
 
-## Retos Repaso 1
-Subidos los Retos Repaso 1
+## Cambios en rama dia3
+- Subidos los Retos Repaso 1
