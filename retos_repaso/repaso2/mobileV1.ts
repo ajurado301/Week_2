@@ -21,16 +21,4 @@ export class MobileV1 {
     this.cameraNumber = cameraNumber;
     this.price = price;
     }
-
-    // Método
-    public printMobile(): void {
-        console.log("Nombre:", this.name);
-        console.log("Modelo:", this.model);
-        console.log("Marca:", this.trademark);
-        console.log("Tamaño SD:", this.sdSize);
-        console.log("Color:", this.color);
-        console.log("Tecnología 5G:", this.is5G);
-        console.log("Número de cámaras:", this.cameraNumber);
-        console.log("Precio:", this.price);
-    }
 }
