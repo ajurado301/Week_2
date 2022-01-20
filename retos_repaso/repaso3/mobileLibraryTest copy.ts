@@ -1,5 +1,5 @@
 import { MobileV2 } from "../repaso2/mobileV2";
-import { MobileLibrary } from './mobileLibrary';
+import { MobileLibrary } from './mobileLibrary copy';
 
 // Instanciar
 let Nokia3210: MobileV2 = new MobileV2("Nokia3210", "3210", "Nokia", 16, "Black", false, 2, 550);
@@ -12,8 +12,18 @@ let mobiles: MobileV2[] = [Nokia3210, iPhone3G, SamsungGalaxy10, XiaomiRedmi10];
 
 // Instanciar
 // Lo construyo sin móviñes y luego los meto con el setter
-let miLibreria: MobileLibrary = new MobileLibrary("Mi libreria de móviles", "Azkoitia", mobiles);
+let miLibreria: MobileLibrary = new MobileLibrary("Mi libreria de móviles", "Azkoitia", []);
+
+// Probar getters y setters
+console.log(miLibreria.getName());
+miLibreria.setName("Mis móviles");
+console.log(miLibreria.getName());
+console.log(miLibreria.getLocation());
+miLibreria.setLocation("Madrid");
+console.log(miLibreria.getLocation());
+console.log(miLibreria.getMobiles());
+miLibreria.setMobiles(mobiles);
+console.log(miLibreria.getMobiles());
 
 // Método
-console.log("Hola");
-miLibreria.printLibrary();
+console.log(miLibreria.totalPriceCalculation());

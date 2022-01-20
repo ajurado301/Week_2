@@ -14,7 +14,7 @@ export class MobileLibrary {
         this.name = name;
         this.location = location;
         this.mobiles = mobiles;
-        this.totalPrice = this.totalPriceCalculation();
+        this.totalPrice = 0;
     }
 
     // getters y setters
@@ -32,15 +32,7 @@ export class MobileLibrary {
     public setTotalPrice(totalPrice: number): void { this.totalPrice = totalPrice };
 
     // Método público
-    public printLibrary(): void {
-        for(let mobile of this.mobiles) {
-            console.log("This is all my mobiles:");
-            mobile.printMobile();
-        }
-    }
-    
-    // Método privado
-    private totalPriceCalculation(): number {
+    public totalPriceCalculation(): number {
         let result: number = 0;
         this.mobiles.forEach((mobile) => {
             return result += mobile.getPrice();
