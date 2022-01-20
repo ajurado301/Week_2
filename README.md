@@ -12,5 +12,9 @@ Carpeta typescript con sus retos correspondientes
 
 ## Cambios en rama dia3
 - Subidos los Retos Repaso 1
+
 ## Cambios en rama dia4
 - Subidos Retos Repaso 2
+
+## Commit de la rama repaso3
+- Subidos Retos Repaso 3
