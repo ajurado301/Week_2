@@ -31,3 +31,16 @@ export function contienePar(arrayNumeros: number[]): boolean {
     };
     return result;
 }
+
+// Función primeraLetraM
+export function primeraLetraM(arrayNombres: string[]): boolean {
+    let result = true;
+    let i =0;
+    while (i < arrayNombres.length && result == true) {
+        if (arrayNombres[i][0] != "M") {
+            result = false;
+        }
+        i++;
+    }
+    return result;
+ }
