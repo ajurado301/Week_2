@@ -1,4 +1,5 @@
 import { Punto } from './punto';
+import { Triangulo } from './triangulo';
 
 // Instanciar
 let punto1: Punto = new Punto(20, 14);
@@ -34,12 +35,21 @@ arrayPuntos.forEach((punto, indice) => {
 // Probar método calcularMasCercano
 // Mostramos los puntos del array
 console.log("Array de puntos:");
-let cadenaPuntos: string = "";
-arrayPuntos.forEach((punto) => {
-    cadenaPuntos += punto.toString() + " ";
-});
-console.log(cadenaPuntos.trim());
+console.log(arrayPuntos);
+// let cadenaPuntos: string = "";
+// arrayPuntos.forEach((punto) => {
+//     cadenaPuntos += punto.toString() + " ";
+// });
+// console.log(cadenaPuntos.trim());
 // Mostrar el más cercano a punto1
 console.log("Punto más cercano a:", punto1.toString());
 console.log(punto1.calcularMasCercano(arrayPuntos).toString());
 
+// Instanciar
+let triangulo: Triangulo = new Triangulo(arrayPuntos[0], arrayPuntos[1], arrayPuntos[2]);
+
+// Probar método calcularLongitudLados
+console.log("Para un triángulo con estos vertices:");
+console.log(triangulo);
+console.log("La distancia de sus lados son:");
+console.log(triangulo.calcularLongitudLados());
