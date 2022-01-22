@@ -33,8 +33,8 @@ export class MobileLibrary {
 
     // Método público
     public printLibrary(): void {
+        console.log("This is all my mobiles:");
         for(let mobile of this.mobiles) {
-            console.log("This is all my mobiles:");
             mobile.printMobile();
         }
     }
